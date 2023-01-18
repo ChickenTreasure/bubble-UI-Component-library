@@ -1,0 +1,23 @@
+{
+    "name": "bubble-UI",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "pnpm -C example dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.0.0",
+        "typescript": "^4.9.4",
+        "vite": "^4.0.4",
+        "vue": "^3.2.36"
+    },
+    "dependencies": {
+        "@bubble-UI/components": "workspace:^1.0.0",
+        "@bubble-UI/theme-chalk": "workspace:^1.0.0",
+        "@bubble-UI/utils": "workspace:^1.0.0"
+    }
+}
